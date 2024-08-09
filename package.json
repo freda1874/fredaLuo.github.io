@@ -1,16 +1,13 @@
 {
   "name": "tailwindui-template",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://freda1874.github.io/fredaLuo.github.io/",
+  "private": true, 
 
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next --no-history"
+    "lint": "next lint"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
