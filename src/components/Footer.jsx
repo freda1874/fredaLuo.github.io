@@ -1,8 +1,7 @@
 import Link from 'next/link'
-
 import { ContainerInner, ContainerOuter } from '@/components/Container'
 import Image from 'next/image'
-import programmer from '/images/photos/programmer.gif'
+
 function NavLink({ href, children }) {
   return (
     <Link
@@ -20,13 +19,14 @@ export function Footer() {
       <ContainerOuter>
         <div className="flex justify-center mb-1">
           <Image
-            src={programmer}
+            src="/images/photos/programmer.gif"  // Use the relative path from the public directory
             className="h-40 w-40 object-cover"
-            alt='thanks'
+            alt="thanks"
           />
         </div>
         <p className="text-center mt-0 text-base text-zinc-600 dark:text-zinc-400 mb-4">
-          Thank you for reading! I would love to stay in touch if you are interested.</p>
+          Thank you for reading! I would love to stay in touch if you are interested.
+        </p>
 
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <ContainerInner>
