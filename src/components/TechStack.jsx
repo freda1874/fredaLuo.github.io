@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import { FaReact, FaJava, FaSwift, FaPython } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { TbBrandMongodb } from "react-icons/tb";
 import { DiNodejs } from "react-icons/di";
-import { SiMysql, SiAndroidstudio, SiOracle, SiXcode } from "react-icons/si";
+import { SiMysql, SiAndroidstudio, SiOracle, SiXcode, SiCplusplusbuilder } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 
 // Custom Icons
@@ -92,7 +93,7 @@ function Resume() {
         {
             company: 'Tencent ',
             title: 'Content Strategist',
-            logo: '/images/logos/tencent.svg',  // Updated path
+            logo: '/images/logos/tencent.svg',
             start: '2015',
             end: '2019',
         }
@@ -173,8 +174,8 @@ export default function TechStack() {
                             <span className="mt-2 text-sm text-gray-600">Oracle</span>
                         </div>
                         <div className="flex flex-col items-center">
-                            <SiXcode width={iconWidth} height={iconHeight} className="h-12 w-12 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Xcode</span>
+                            <SiCplusplusbuilder width={iconWidth} height={iconHeight} className="h-12 w-12 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">C++</span>
                         </div>
                     </div>
                     <Resume />
