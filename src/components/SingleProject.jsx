@@ -8,11 +8,11 @@ const products = [
         name: 'Encrypted Auth Web App',
         link: 'https://user-authentication-app-x2ya.onrender.com/',
         images: [
-            { id: 1, name: 'screenshot', src: '/images/photos/AuthApp/Auth1.jpg' },
-            { id: 2, name: 'screenshot', src: '/images/photos/AuthApp/Auth10.jpg' },
-            { id: 4, name: 'screenshot', src: '/images/photos/AuthApp/Auth5.jpg' },
-            { id: 5, name: 'screenshot', src: '/images/photos/AuthApp/Auth4.jpg' },
-            { id: 6, name: 'screenshot', src: '/images/photos/AuthApp/Auth9.jpg' },
+            { id: 1, name: 'screenshot', src: '/images/photos/AuthApp/Auth1.png' },
+            { id: 2, name: 'screenshot', src: '/images/photos/AuthApp/Auth10.png' },
+            { id: 4, name: 'screenshot', src: '/images/photos/AuthApp/Auth5.png' },
+            { id: 5, name: 'screenshot', src: '/images/photos/AuthApp/Auth4.png' },
+            { id: 6, name: 'screenshot', src: '/images/photos/AuthApp/Auth9.png' },
         ],
         description: `<p>A comprehensive solution for secure user registration, login, and password reset. On login, a JWT token is issued with a 1-hour expiry, and passwords are encrypted in the database. The RESTful API handles frontend communication, while Tailwind CSS ensures responsive design across all screen sizes.</p>`,
         details: [{
@@ -23,10 +23,10 @@ const products = [
         name: 'E-Commerce Scraping Web App',
         link: 'https://github.com/freda1874/eCommerce-GoogleAPI-WebApp',
         images: [
-            { id: 1, name: 'shopful', src: '/images/photos/shopful/eCom2.jpg' },
-            { id: 2, name: 'shopful', src: '/images/photos/shopful/eCom1.jpg' },
-            { id: 4, name: 'shopful', src: '/images/photos/shopful/eCom3.jpg' },
-            { id: 5, name: 'shopful', src: '/images/photos/shopful/eCom4.jpg' }
+            { id: 1, name: 'shopful', src: '/images/photos/shopful/eCom2.png' },
+            { id: 2, name: 'shopful', src: '/images/photos/shopful/eCom1.png' },
+            { id: 4, name: 'shopful', src: '/images/photos/shopful/eCom3.png' },
+            { id: 5, name: 'shopful', src: '/images/photos/shopful/eCom4.png' }
         ],
         description: `<p>An intuitive full-stack e-commerce app that uses the Google API to scrape and display real-time product listings from local shops based on user needs. The app updates user geolocation every 5 minutes, combining location data with user preferences to create a personalized shopping experience.</p>`,
         details: [{ name: 'Languages and Tools', items: ['Express.js', 'MongoDB', 'ReactJS', 'Tailwind CSS', 'Google API'] }],
@@ -35,8 +35,8 @@ const products = [
         name: 'PeerTutor Management System',
         link: 'https://github.com/freda1874/PeerTutor-Management-System',
         images: [
-            { id: 1, name: 'PeerTutor', src: '/images/photos/PeerTutor/Java1.jpg' },
-            { id: 2, name: 'PeerTutor', src: '/images/photos/PeerTutor/Java2.jpg' },
+            { id: 1, name: 'PeerTutor', src: '/images/photos/PeerTutor/Java1.png' },
+            { id: 2, name: 'PeerTutor', src: '/images/photos/PeerTutor/Java2.png' },
         ],
         description: `<p>A PeerTutor Management Backend System built with Java EE,  offering encrypted user credentials, role-based access control, JPA for object-relational mapping, session beans for business logic, and RESTful services for backend resource exposure. Last but not least, Comprehensive JUnit tests ensure system correctness.</p>`,
         details: [{
@@ -46,10 +46,10 @@ const products = [
         name: 'Musician Search Androd App',
         link: 'https://github.com/freda1874/PeerTutor-Management-System',
         images: [
-            { id: 1, name: 'Musician', src: '/images/photos/Android/Android1.jpg' },
-            { id: 2, name: 'Musician', src: '/images/photos/Android/Android2.jpg' },
-            { id: 3, name: 'Musician', src: '/images/photos/Android/Android3.jpg' },
-            { id: 4, name: 'Musician', src: '/images/photos/Android/Android4.jpg' },
+            { id: 1, name: 'Musician', src: '/images/photos/Android/Android1.png' },
+            { id: 2, name: 'Musician', src: '/images/photos/Android/Android2.png' },
+            { id: 3, name: 'Musician', src: '/images/photos/Android/Android3.png' },
+            { id: 4, name: 'Musician', src: '/images/photos/Android/Android4.png' },
         ],
         description: `<p>Allows users to search for their favorite musicians' top tracks on mobile, listen to songs, and create personalized collections that can be managed easily.</p>`,
         details: [{
