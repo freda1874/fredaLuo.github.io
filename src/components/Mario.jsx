@@ -1,6 +1,6 @@
 'use client';
-import RainbowBabyYoshi from '../images/photos/RainbowBabyYoshi.png';
-import Luigi from '../images/photos/Luigi.png';
+import RainbowBabyYoshi from '../../public/images/photos/RainbowBabyYoshi.png';
+import Luigi from '../../public/images/photos/Luigi.png';
 import React, { useEffect } from 'react';
 
 function SuperMarioMap() {

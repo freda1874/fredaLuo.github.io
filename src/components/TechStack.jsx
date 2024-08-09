@@ -1,9 +1,9 @@
 
 
-import warner from '../images/logos/warner.svg'
-import tencent from '../images/logos/tencent.svg'
-import zhihu from '../images/logos/zhihu.svg'
-import algonquin from '../images/logos/algonquin.svg'
+import warner from '../../public/images/logos/warner.svg'
+import tencent from '../../public/images/logos/tencent.svg'
+import zhihu from '../../public/images/logos/zhihu.svg'
+import algonquin from '../../public/images/logos/algonquin.svg'
 import Image from 'next/image'
 import { FaReact, FaJava, FaSwift, FaPython } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";

@@ -7,7 +7,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 
-import image1 from '@/images/photos/coding.gif'
+import image1 from '../../public/images/photos/coding.gif'
 import TechStack from '../components/TechStack'
 import Projects from './projects/page'
 

@@ -2,13 +2,13 @@
 
 import { Tab } from '@headlessui/react';
 import Image from 'next/image';
-import image1 from '../images/photos/image-1.jpg';
-import image2 from '../images/photos/image-2.jpg';
+import image1 from '../../public/images/photos/image-1.jpg';
+import image2 from '../../public/images/photos/image-2.jpg';
 import SuperMarioMap from '../components/Mario';
-import { Auth1, Auth4, Auth5, Auth10, Auth9 } from '../images/photos/AuthApp';
-import { eCom1, eCom2, eCom3, eCom4 } from '../images/photos/shopful'
-import { Java1, Java2 } from '../images/photos/PeerTutor'
-import { Android1, Android2, Android3, Android4 } from '../images/photos/Android'
+import { Auth1, Auth4, Auth5, Auth10, Auth9 } from '../../public/images/photos/AuthApp';
+import { eCom1, eCom2, eCom3, eCom4 } from '../../public/images/photos/shopful'
+import { Java1, Java2 } from '../../public/images/photos/PeerTutor'
+import { Android1, Android2, Android3, Android4 } from '../../public/images/photos/Android'
 const products = [
     {
         name: 'Encrypted Auth Web App',

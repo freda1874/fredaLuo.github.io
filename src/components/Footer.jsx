@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import { ContainerInner, ContainerOuter } from '@/components/Container'
 import Image from 'next/image'
-import programmer from '../images/photos/programmer.gif'
+import programmer from '../../public/images/photos/programmer.gif'
 function NavLink({ href, children }) {
   return (
     <Link
