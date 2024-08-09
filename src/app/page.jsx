@@ -1,13 +1,11 @@
 
 
-import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 
-import image1 from '../../public/images/photos/coding.gif'
 import TechStack from '../components/TechStack'
 import Projects from './projects/page'
 
@@ -48,13 +46,13 @@ function Photos() {
     <div className="hidden lg:block mt-16 sm:mt-20">
       <div className="-my-4 flex justify-evenly gap-5 overflow-hidden py-4 sm:gap-8">
         <div
-          key={image1.src}
+          key="/images/photos/coding.gif"
           className={clsx(
             'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800'
           )}
         >
-          <Image
-            src={image1}
+          <img
+            src="/images/photos/coding.gif"
             alt="Coding girl"
             sizes="(min-width: 640px) 18rem, 11rem"
             className="absolute inset-0 h-full w-full object-cover"

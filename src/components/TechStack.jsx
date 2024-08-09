@@ -1,10 +1,3 @@
-
-
-import warner from '../../public/images/logos/warner.svg'
-import tencent from '../../public/images/logos/tencent.svg'
-import zhihu from '../../public/images/logos/zhihu.svg'
-import algonquin from '../../public/images/logos/algonquin.svg'
-import Image from 'next/image'
 import { FaReact, FaJava, FaSwift, FaPython } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { TbBrandMongodb } from "react-icons/tb";
@@ -12,6 +5,7 @@ import { DiNodejs } from "react-icons/di";
 import { SiMysql, SiAndroidstudio, SiOracle, SiXcode } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 
+// Custom Icons
 function BriefcaseIcon(props) {
     return (
         <svg
@@ -35,7 +29,6 @@ function BriefcaseIcon(props) {
     )
 }
 
-
 function Role({ role }) {
     let startLabel =
         typeof role.start === 'string' ? role.start : role.start.label
@@ -48,7 +41,7 @@ function Role({ role }) {
     return (
         <li className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-                <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+                <img src={role.logo} alt="" className="h-7 w-7" />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
                 <dt className="sr-only">Company</dt>
@@ -72,46 +65,34 @@ function Role({ role }) {
         </li>
     )
 }
-function ArrowDownIcon(props) {
-    return (
-        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" {...props}>
-            <path
-                d="M4.75 8.75 8 12.25m0 0 3.25-3.5M8 12.25v-8.5"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-        </svg>
-    )
-}
 
 function Resume() {
     let resume = [
         {
             company: 'Warner Bros. Discovery',
-            title: 'IOS Develoer Co-op',
-            logo: warner,
+            title: 'IOS Developer Co-op',
+            logo: '/images/logos/warner.svg',  // Updated path
             start: '2024',
             end: '2024'
         },
         {
             company: 'Algonquin College',
             title: 'Computer programming program',
-            logo: algonquin,
+            logo: '/images/logos/algonquin.svg',  // Updated path
             start: '2022',
             end: '2024'
         },
         {
             company: 'Zhihu',
             title: 'Business Data Analyst',
-            logo: zhihu,
+            logo: '/images/logos/zhihu.svg',  // Updated path
             start: '2019',
             end: '2022'
         },
         {
             company: 'Tencent ',
             title: 'Content Strategist',
-            logo: tencent,
+            logo: '/images/logos/tencent.svg',  // Updated path
             start: '2015',
             end: '2019',
         }
@@ -128,10 +109,10 @@ function Resume() {
                     <Role key={roleIndex} role={role} />
                 ))}
             </ol>
-
         </div>
     )
 }
+
 export default function TechStack() {
 
     const iconWidth = 138;
@@ -139,15 +120,14 @@ export default function TechStack() {
 
     return (
         <div className="bg-white sm:py-2">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center">My Skills and Exprience </h2>
-            <p className=" my-5 text-base text-zinc-600 dark:text-zinc-400 text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center">My Skills and Experience </h2>
+            <p className="my-5 text-base text-zinc-600 dark:text-zinc-400 text-center">
                 Passionate about diving into new technologies,
                 I keep exploring stuff. Here is the tech stack I have worked with:
             </p>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
                     <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-y-12 sm:gap-y-8 lg:gap-y-10">
-
                         <div className="flex flex-col items-center">
                             <FaReact width={iconWidth} height={iconHeight} className="h-12 w-12 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">React</span>

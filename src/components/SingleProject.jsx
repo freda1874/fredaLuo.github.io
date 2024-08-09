@@ -1,24 +1,18 @@
 'use client';
 
 import { Tab } from '@headlessui/react';
-import Image from 'next/image';
-import image1 from '../../public/images/photos/image-1.jpg';
-import image2 from '../../public/images/photos/image-2.jpg';
 import SuperMarioMap from '../components/Mario';
-import { Auth1, Auth4, Auth5, Auth10, Auth9 } from '../../public/images/photos/AuthApp';
-import { eCom1, eCom2, eCom3, eCom4 } from '../../public/images/photos/shopful'
-import { Java1, Java2 } from '../../public/images/photos/PeerTutor'
-import { Android1, Android2, Android3, Android4 } from '../../public/images/photos/Android'
+
 const products = [
     {
         name: 'Encrypted Auth Web App',
         link: 'https://user-authentication-app-x2ya.onrender.com/',
         images: [
-            { id: 1, name: 'screenshot', src: Auth1 },
-            { id: 2, name: 'screenshot', src: Auth10 },
-            { id: 4, name: 'screenshot', src: Auth5 },
-            { id: 5, name: 'screenshot', src: Auth4 },
-            { id: 6, name: 'screenshot', src: Auth9 },
+            { id: 1, name: 'screenshot', src: '/images/photos/AuthApp/Auth1.jpg' },
+            { id: 2, name: 'screenshot', src: '/images/photos/AuthApp/Auth10.jpg' },
+            { id: 4, name: 'screenshot', src: '/images/photos/AuthApp/Auth5.jpg' },
+            { id: 5, name: 'screenshot', src: '/images/photos/AuthApp/Auth4.jpg' },
+            { id: 6, name: 'screenshot', src: '/images/photos/AuthApp/Auth9.jpg' },
         ],
         description: `<p>A comprehensive solution for secure user registration, login, and password reset. On login, a JWT token is issued with a 1-hour expiry, and passwords are encrypted in the database. The RESTful API handles frontend communication, while Tailwind CSS ensures responsive design across all screen sizes.</p>`,
         details: [{
@@ -29,10 +23,10 @@ const products = [
         name: 'E-Commerce Scraping Web App',
         link: 'https://github.com/freda1874/eCommerce-GoogleAPI-WebApp',
         images: [
-            { id: 1, name: 'shopful', src: eCom2 },
-            { id: 2, name: 'shopful', src: eCom1 },
-            { id: 4, name: 'shopful', src: eCom3 },
-            { id: 5, name: 'shopful', src: eCom4 }
+            { id: 1, name: 'shopful', src: '/images/photos/shopful/eCom2.jpg' },
+            { id: 2, name: 'shopful', src: '/images/photos/shopful/eCom1.jpg' },
+            { id: 4, name: 'shopful', src: '/images/photos/shopful/eCom3.jpg' },
+            { id: 5, name: 'shopful', src: '/images/photos/shopful/eCom4.jpg' }
         ],
         description: `<p>An intuitive full-stack e-commerce app that uses the Google API to scrape and display real-time product listings from local shops based on user needs. The app updates user geolocation every 5 minutes, combining location data with user preferences to create a personalized shopping experience.</p>`,
         details: [{ name: 'Languages and Tools', items: ['Express.js', 'MongoDB', 'ReactJS', 'Tailwind CSS', 'Google API'] }],
@@ -41,8 +35,8 @@ const products = [
         name: 'PeerTutor Management System',
         link: 'https://github.com/freda1874/PeerTutor-Management-System',
         images: [
-            { id: 1, name: 'PeerTutor', src: Java1 },
-            { id: 2, name: 'PeerTutor', src: Java2 },
+            { id: 1, name: 'PeerTutor', src: '/images/photos/PeerTutor/Java1.jpg' },
+            { id: 2, name: 'PeerTutor', src: '/images/photos/PeerTutor/Java2.jpg' },
         ],
         description: `<p>A PeerTutor Management Backend System built with Java EE,  offering encrypted user credentials, role-based access control, JPA for object-relational mapping, session beans for business logic, and RESTful services for backend resource exposure. Last but not least, Comprehensive JUnit tests ensure system correctness.</p>`,
         details: [{
@@ -52,10 +46,10 @@ const products = [
         name: 'Musician Search Androd App',
         link: 'https://github.com/freda1874/PeerTutor-Management-System',
         images: [
-            { id: 1, name: 'Musician', src: Android1 },
-            { id: 2, name: 'Musician', src: Android2 },
-            { id: 2, name: 'Musician', src: Android3 },
-            { id: 2, name: 'Musician', src: Android4 },
+            { id: 1, name: 'Musician', src: '/images/photos/Android/Android1.jpg' },
+            { id: 2, name: 'Musician', src: '/images/photos/Android/Android2.jpg' },
+            { id: 3, name: 'Musician', src: '/images/photos/Android/Android3.jpg' },
+            { id: 4, name: 'Musician', src: '/images/photos/Android/Android4.jpg' },
         ],
         description: `<p>Allows users to search for their favorite musicians' top tracks on mobile, listen to songs, and create personalized collections that can be managed easily.</p>`,
         details: [{
@@ -95,7 +89,7 @@ export default function SingleProject() {
                                                 {({ selected }) => (
                                                     <>
                                                         <span className="absolute inset-0 overflow-hidden rounded-md">
-                                                            <Image
+                                                            <img
                                                                 src={image.src}
                                                                 alt={image.alt}
                                                                 className={`h-full w-full object-cover ${selected ? 'scale-100' : 'scale-75'} transition-transform`}
@@ -120,7 +114,7 @@ export default function SingleProject() {
                                 <Tab.Panels className="w-full ">
                                     {product.images.map((image) => (
                                         <Tab.Panel key={image.id}>
-                                            <Image
+                                            <img
                                                 src={image.src}
                                                 alt={image.alt}
                                                 className="w-[900px] h-full object-cover sm:rounded-lg"
