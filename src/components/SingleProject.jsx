@@ -44,7 +44,7 @@ const products = [
             name: 'Languages and Tools', items: ['Java EE', 'JPA', 'JSON Serializer', 'Encryption']
         }],
     }, {
-        name: 'Musician Search Androd App',
+        name: 'Musician Search Android App',
         link: 'https://github.com/freda1874/PeerTutor-Management-System',
         images: [
             { id: 1, name: 'Musician', src: '/images/photos/Android/Android1.png' },

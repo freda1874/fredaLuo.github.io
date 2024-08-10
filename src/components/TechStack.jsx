@@ -123,8 +123,7 @@ export default function TechStack() {
         <div className="bg-white sm:py-2">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center">My Skills and Experience </h2>
             <p className="my-5 text-base text-zinc-600 dark:text-zinc-400 text-center">
-                Passionate about diving into new technologies,
-                I keep exploring stuff. Here is the tech stack I have worked with:
+                Passionate about diving into new technologies.Here is the tech stack I have worked with:
             </p>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">

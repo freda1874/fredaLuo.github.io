@@ -15,7 +15,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="My Projects"
-      intro="Here are a few cool things I've worked on, go check them out"
+      intro="Here are a few cool things I've worked on, come and take a look:"
     >
       < SingleProject />
     </SimpleLayout>

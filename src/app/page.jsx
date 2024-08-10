@@ -74,7 +74,7 @@ export default function Home() {
               Hi there! Welcome to my portfolio
             </h1>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              I am Freda, a recent graduate and a passionate software engineer.
+              I am Freda Luo, a recent graduate and a passionate software engineer.
               I am eager to bring fresh ideas and creative solutions to the world of software development.
               Let us create something amazing together!
             </p>
