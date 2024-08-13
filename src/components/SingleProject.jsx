@@ -45,7 +45,7 @@ const products = [
         }],
     }, {
         name: 'Musician Search Android App',
-        link: 'https://github.com/freda1874/PeerTutor-Management-System',
+        link: 'https://github.com/freda1874/Mobile-Graphical-Interface',
         images: [
             { id: 1, name: 'Musician', src: '/images/photos/Android/Android1.png' },
             { id: 2, name: 'Musician', src: '/images/photos/Android/Android2.png' },

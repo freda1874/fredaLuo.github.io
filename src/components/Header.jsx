@@ -183,6 +183,8 @@ function Avatar({ large = false, className, ...props }) {
       <Image
         src="/images/logos/avatar.jpg"
         alt=""
+        width={large ? 80 : 36}
+        height={large ? 80 : 36}
         sizes={large ? '4rem' : '2.25rem'}
         className={clsx(
           'rounded-full bg-zinc-100 object-cover dark:bg-zinc-800',

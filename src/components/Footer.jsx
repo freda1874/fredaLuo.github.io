@@ -19,13 +19,15 @@ export function Footer() {
       <ContainerOuter>
         <div className="flex justify-center mb-1">
           <Image
-            src="/images/photos/programmer.gif"  // Use the relative path from the public directory
+            src="/images/photos/programmer.gif"
             className="h-40 w-40 object-cover"
+            width={160}
+            height={160}
             alt="thanks"
           />
         </div>
-        <p className="text-center mt-0 text-base text-zinc-600 dark:text-zinc-400 mb-4">
-          Thank you for reading! I would love to stay in touch if you are interested.
+        <p className="w-1/3 mx-auto text-center mt-0 text-base text-zinc-600 dark:text-zinc-400 mb-4">
+          Thank you for reading! <br />I would love to stay in touch if you are interested 😉.
         </p>
 
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
