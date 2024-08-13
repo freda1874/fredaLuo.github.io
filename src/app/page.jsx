@@ -74,7 +74,7 @@ export default function Home() {
               Hi there! Welcome to my portfolio
             </h1>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              I'm Freda Luo, a recent programmer graduate. I started in product management, for years focusing on the "why" behind products. My curiosity for the "how" led me to pursue software development, and I'm now committed to becoming a full-stack developer.
+              I am Freda Luo, a recent programmer graduate. I started in product management, focusing for years on the &quot;why&quot; behind products. My curiosity for the &quot;how&quot; led me to pursue software development, and I am now committed to becoming a full-stack developer.
             </p> <div className="mt-6 flex gap-6 items-center">
               <SocialLink
                 href="https://github.com/freda1874?tab=repositories"
