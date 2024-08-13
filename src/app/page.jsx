@@ -74,10 +74,7 @@ export default function Home() {
               Hi there! Welcome to my portfolio
             </h1>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              I am Freda Luo, a recent graduate and a passionate software engineer.
-              I am eager to bring fresh ideas and creative solutions to the world of software development.
-              Let us create something amazing together!
-            </p>
+              I'm Freda Luo, a recent software engineering graduate.Years ago I began my career in product management, where I focused on understanding the "why" behind building products. My curiosity for the "how" led me to pursue software development, where I am now committed to becoming a full-stack developer.   </p>
             <div className="mt-6 flex gap-6 items-center">
               <SocialLink
                 href="https://github.com/freda1874?tab=repositories"
@@ -92,7 +89,7 @@ export default function Home() {
               <SocialLink
                 href="mailto:freda.luo@gmail.com"
                 icon={MailIcon}
-                className="flex items-center gap-2" // Added to align icon and text
+                className="flex items-center gap-2"
               >
 
               </SocialLink>
