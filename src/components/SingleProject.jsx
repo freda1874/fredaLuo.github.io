@@ -61,7 +61,7 @@ const products = [
         name: 'Super Mario World Around Me',
         link: 'https://freda1874.github.io/MarioStyleGoogleMap/',
         component: <SuperMarioMap className="w-[800px]" />,
-        description: `<p>Explore the Super Mario World around me with interactive maps and custom markers!</p>`,
+        description: `<p>A customized Google Map with interactive markers using JavaScript and Google Maps API.</p>`,
         details: [{ name: 'Languages and Tools', items: ['Google Maps API', 'JavaScript'] }],
     },
 ];
