@@ -27,7 +27,7 @@ export function Footer() {
           />
         </div>
         <p className="w-1/3 mx-auto text-center mt-0 text-base text-zinc-600 dark:text-zinc-400 mb-4">
-          Thank you for reading! <br />I would love to stay in touch if you are interested 😉.
+          Thank you for reading!
         </p>
 
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
