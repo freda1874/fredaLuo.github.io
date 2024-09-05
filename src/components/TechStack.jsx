@@ -150,16 +150,16 @@ function Resume() {
 
                         <div className="flex flex-col items-center">
                             <SiTypescript width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Django</span>
+                            <span className="mt-2 text-sm text-gray-600">Typescript</span>
                         </div>
                         <div className="flex flex-col items-center">
                             <SiDotnet width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Django</span>
+                            <span className="mt-2 text-sm text-gray-600">.NET</span>
                         </div>
 
                         <div className="flex flex-col items-center">
                             <TbBrandCSharp width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">C++</span>
+                            <span className="mt-2 text-sm text-gray-600">C#</span>
                         </div>
 
                         <div className="flex flex-col items-center">
