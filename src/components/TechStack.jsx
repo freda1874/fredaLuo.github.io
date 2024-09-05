@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import { FaReact, FaJava, FaSwift, FaPython } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
-import { TbBrandMongodb } from "react-icons/tb";
-import { DiNodejs, DiDjango } from "react-icons/di";
+import { TbBrandMongodb, TbBrandCSharp } from "react-icons/tb";
+import { DiNodejs } from "react-icons/di";
 import { SiMysql, SiAndroidstudio, SiOracle, SiXcode, SiCplusplusbuilder } from "react-icons/si";
-import { SiExpress, SiPowershell, SiJavascript } from "react-icons/si";
+import { SiTypescript, SiDotnet, SiPowershell, SiJavascript } from "react-icons/si";
 
 // Custom Icons
 function BriefcaseIcon(props) {
@@ -114,9 +114,8 @@ function Resume() {
     )
 } export default function TechStack() {
 
-    // Adjust icon dimensions for smaller display
-    const iconWidth = 60;  // reduced width
-    const iconHeight = 60; // reduced height
+    const iconWidth = 60;
+    const iconHeight = 60;
 
     return (
         <div className="bg-white sm:py-2">
@@ -136,25 +135,33 @@ function Resume() {
                             <span className="mt-2 text-sm text-gray-600">Python</span>
                         </div>
                         <div className="flex flex-col items-center">
-                            <DiDjango width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Django</span>
+                            <SiJavascript width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">Javascript</span>
                         </div>
+
                         <div className="flex flex-col items-center">
                             <DiNodejs width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">Node.js</span>
                         </div>
                         <div className="flex flex-col items-center">
-                            <SiExpress width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Express.js</span>
-                        </div>
-                        <div className="flex flex-col items-center">
-                            <SiCplusplusbuilder width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">C++</span>
-                        </div>
-                        <div className="flex flex-col items-center">
                             <FaReact width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">React</span>
                         </div>
+
+                        <div className="flex flex-col items-center">
+                            <SiTypescript width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">Django</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <SiDotnet width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">Django</span>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <TbBrandCSharp width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">C++</span>
+                        </div>
+
                         <div className="flex flex-col items-center">
                             <FaSwift width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">Swift</span>
@@ -167,10 +174,7 @@ function Resume() {
                             <SiPowershell width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">Shell</span>
                         </div>
-                        <div className="flex flex-col items-center">
-                            <SiJavascript width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Javascript</span>
-                        </div>
+
                         <div className="flex flex-col items-center">
                             <TbBrandMongodb width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">MongoDB</span>
