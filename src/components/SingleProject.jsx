@@ -6,7 +6,7 @@ import SuperMarioMap from '../components/Mario';
 
 const products = [{
     name: 'Resume Management Web App',
-    link: 'https://github.com/freda1874/ResumeManagement-dotnet-typescript',
+    link: 'https://resumefrontend-fsfmbwgfgcfncwew.canadacentral-01.azurewebsites.net/',
     images: [
         { id: 1, name: 'resume', src: '/images/photos/ResumeApp/DB.png' },
         { id: 2, name: 'resume', src: '/images/photos/ResumeApp/4.png' },
