@@ -3,7 +3,7 @@ import { FaReact, FaJava, FaSwift, FaPython } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { TbBrandMongodb, TbBrandCSharp } from "react-icons/tb";
 import { DiNodejs } from "react-icons/di";
-import { SiMysql, SiAndroidstudio, SiOracle, SiXcode, SiCplusplusbuilder } from "react-icons/si";
+import { SiMysql, SiAndroidstudio, SiOracle, SiXcode, SiAngular } from "react-icons/si";
 import { SiTypescript, SiDotnet, SiPowershell, SiJavascript } from "react-icons/si";
 
 // Custom Icons
@@ -147,7 +147,10 @@ function Resume() {
                             <FaReact width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">React</span>
                         </div>
-
+                        <div className="flex flex-col items-center">
+                            <SiAngular width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">Shell</span>
+                        </div>
                         <div className="flex flex-col items-center">
                             <SiTypescript width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">Typescript</span>
@@ -170,10 +173,7 @@ function Resume() {
                             <BiLogoTailwindCss width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">Tailwind CSS</span>
                         </div>
-                        <div className="flex flex-col items-center">
-                            <SiPowershell width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Shell</span>
-                        </div>
+
 
                         <div className="flex flex-col items-center">
                             <TbBrandMongodb width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
