@@ -15,10 +15,12 @@ const products = [
             { id: 5, name: 'ecommerce', src: '/images/photos/ecommerce/cart.png ' },
             { id: 6, name: 'ecommerce', src: ' /images/photos/ecommerce/cartpage.png' },
             { id: 7, name: 'ecommerce', src: ' /images/photos/ecommerce/checkout.png' },],
-        description: `<p>A comprehensive solution for secure user registration, login, and password reset. On login, a JWT token is issued with a 1-hour expiry, and passwords are encrypted in the database. The RESTful API handles frontend communication, while Tailwind CSS ensures responsive design across all screen sizes.</p>`,
+        description: `<p>An eCommerce app that allows users to browse products across various categories, easily add items to the shopping cart, and manage their cart by adding or removing items, or proceeding to checkout.
+
+The checkout process is integrated with the Stripe API to provide a secure payment experience. Store owners can also configure shipping and delivery options during the checkout process.</p>`,
         details: [{
             name: 'Languages and Tools',
-            items: ['Express.js', 'Bcrypt', 'Nodemailer', 'JWT', 'MongoDB', 'ReactJS (Vite)', 'Tailwind CSS']
+            items: ['Angular 18.20', 'Node.js', 'Angular Material', 'TypeScript', 'Stripe API', 'Tailwind CSS']
         }],
     },
     {
