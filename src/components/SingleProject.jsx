@@ -6,6 +6,27 @@ import SuperMarioMap from '../components/Mario';
 
 const products = [
     {
+        name: 'Inventory Data Dashboard ',
+        link: 'https://main.d21fu26tbnffw2.amplifyapp.com/dashboard',
+        images: [
+            { id: 1, name: 'Dashboard', src: '/images/photos/dashboard/page1.png' },
+            { id: 3, name: 'Dashboard', src: '/images/photos/dashboard/page2.png' },
+            { id: 4, name: 'Dashboard', src: ' /images/photos/dashboard/page3.png' },
+            { id: 5, name: 'Dashboard', src: '/images/photos/dashboard/page5.png' },
+            { id: 6, name: 'Dashboard', src: ' /images/photos/dashboard/page6.png' },
+            { id: 7, name: 'Dashboard', src: ' /images/photos/dashboard/page9.png' },],
+        description: `<p>A Fullstack Dashboard Application built with Next.js, Redux Toolkit, and Node.js, leveraging AWS for deployment
+and backend infrastructure.<br/>
+The frontend, is styled with Tailwind CSS, utilizes Recharts for data visualization and MUI Data Grid for handling
+complex data, with Redux managing data fetching, deployed on AWS Amplify.<br/>
+The backend is powered by Node.js with Prisma ORM for database management, deployed using AWS RDS for
+the database, EC2 for hosting, API Gateway for API management, and S3 for image storage.</p>`,
+        details: [{
+            name: 'Languages and Tools',
+            items: ['Next.js', 'Redux', 'Node.js', 'TailwindCSS', 'Recharts', 'AWS', 'Postgres']
+        }],
+    },
+    {
         name: 'Ecommerce Store',
         link: 'https://github.com/freda1874/commerceStore-Angular-Node.js-TypeScript-Stripe',
         images: [
@@ -15,9 +36,12 @@ const products = [
             { id: 5, name: 'ecommerce', src: '/images/photos/ecommerce/cart.png ' },
             { id: 6, name: 'ecommerce', src: ' /images/photos/ecommerce/cartpage.png' },
             { id: 7, name: 'ecommerce', src: ' /images/photos/ecommerce/checkout.png' },],
-        description: `<p>An eCommerce app that allows users to browse products across various categories, easily add items to the shopping cart, and manage their cart by adding or removing items, or proceeding to checkout.
-
-The checkout process is integrated with the Stripe API to provide a secure payment experience. Store owners can also configure shipping and delivery options during the checkout process.</p>`,
+        description: `<p>An eCommerce application built with Angular 18.20 and Node.js, leveraging core Angular features such as
+Modules, Data Binding, Directives, Services, Pipes, and Lazy Loading.<br/>
+ Users can browse across categories using Router and manage their shopping cart (add, update, remove items) .
+The app utilizes Reactive Forms for user interactions and Observables for asynchronous operations.<br/>
+ The checkout process integrates the Stripe API for secure payments, with configurable shipping and delivery
+options</p>`,
         details: [{
             name: 'Languages and Tools',
             items: ['Angular 18.20', 'Node.js', 'Angular Material', 'TypeScript', 'Stripe API', 'Tailwind CSS']
@@ -33,27 +57,10 @@ The checkout process is integrated with the Stripe API to provide a secure payme
             { id: 5, name: 'screenshot', src: '/images/photos/AuthApp/Auth4.png' },
             { id: 6, name: 'screenshot', src: '/images/photos/AuthApp/Auth9.png' },
         ],
-        description: `<p>A comprehensive solution for secure user registration, login, and password reset. On login, a JWT token is issued with a 1-hour expiry, and passwords are encrypted in the database. The RESTful API handles frontend communication, while Tailwind CSS ensures responsive design across all screen sizes.</p>`,
+        description: `<p> A secure web application  focusing on user authentication and session management, using JWT for secure and stateless session handling. Bcrypt is implemented for strong password hashing and encryption, and  Nodemailer for user identity verification.<br/> The backend follows RESTful API principles for efficient communication, while Tailwind CSS ensures a fully responsive user interface across all screen sizes. /p>`,
         details: [{
             name: 'Languages and Tools',
             items: ['Express.js', 'Bcrypt', 'Nodemailer', 'JWT', 'MongoDB', 'ReactJS (Vite)', 'Tailwind CSS']
-        }],
-    }, {
-        name: 'Resume Management Web App',
-        link: 'https://resumefrontend-fsfmbwgfgcfncwew.canadacentral-01.azurewebsites.net/',
-        images: [
-            { id: 1, name: 'resume', src: '/images/photos/ResumeApp/DB.png' },
-            { id: 2, name: 'resume', src: '/images/photos/ResumeApp/4.png' },
-            { id: 4, name: 'resume', src: '/images/photos/ResumeApp/resume1.png' },
-            { id: 5, name: 'resume', src: '/images/photos/ResumeApp/darkmode.png' },
-            { id: 6, name: 'resume', src: '/images/photos/ResumeApp/8.png' },
-            { id: 7, name: 'resume', src: '/images/photos/ResumeApp/9.png' },
-        ],
-        description: `<p>A full-stack CRUD application using React, ASP.NET Core 7 WebAPI, and TypeScript to manage resumes. The application allows users to create new companies and job listings, upload resumes, apply for positions, and download resumes locally. 
-The application supports dark mode for enhanced user experience and is responsive to screen size changes.</p>`,
-        details: [{
-            name: 'Languages and Tools',
-            items: ['React 18', 'ASP.NET', 'Core7 WebAPI', 'TypeScript', 'Entity Framework Core']
         }],
     },
     {
@@ -80,17 +87,6 @@ The application supports dark mode for enhanced user experience and is responsiv
         details: [{
             name: 'Languages and Tools', items: ['Java', 'Android Studio', 'DeerSong API', 'MySQL']
         }],
-    }, {
-        name: 'E-Commerce Scraping Web App',
-        link: 'https://github.com/freda1874/eCommerce-GoogleAPI-WebApp',
-        images: [
-            { id: 1, name: 'shopful', src: '/images/photos/shopful/eCom2.png' },
-            { id: 2, name: 'shopful', src: '/images/photos/shopful/eCom1.png' },
-            { id: 4, name: 'shopful', src: '/images/photos/shopful/eCom3.png' },
-            { id: 5, name: 'shopful', src: '/images/photos/shopful/eCom4.png' }
-        ],
-        description: `<p>An intuitive full-stack e-commerce app that uses the Google API to scrape and display real-time product listings from local shops based on user needs. The app updates user geolocation every 5 minutes, combining location data with user preferences to create a personalized shopping experience.</p>`,
-        details: [{ name: 'Languages and Tools', items: ['Express.js', 'MongoDB', 'ReactJS', 'Tailwind CSS', 'Google API'] }],
     },
     {
         name: 'Super Mario World Around Me',

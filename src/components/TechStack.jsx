@@ -126,14 +126,7 @@ function Resume() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
                     <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-y-7 sm:gap-y-5   ">
-                        <div className="flex flex-col items-center">
-                            <FaJava width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Java</span>
-                        </div>
-                        <div className="flex flex-col items-center">
-                            <FaPython width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Python</span>
-                        </div>
+
                         <div className="flex flex-col items-center">
                             <SiJavascript width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">Javascript</span>
@@ -159,7 +152,14 @@ function Resume() {
                             <SiDotnet width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">.NET</span>
                         </div>
-
+                        <div className="flex flex-col items-center">
+                            <FaJava width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">Java</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <FaPython width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">Python</span>
+                        </div>
                         <div className="flex flex-col items-center">
                             <TbBrandCSharp width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">C#</span>
