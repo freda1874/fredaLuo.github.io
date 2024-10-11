@@ -17,10 +17,8 @@ const products = [
             { id: 7, name: 'Dashboard', src: ' /images/photos/dashboard/page9.png' },],
         description: `<p>A Fullstack Dashboard Application built with Next.js, Redux Toolkit, and Node.js, leveraging AWS for deployment
 and backend infrastructure.<br/>
-The frontend, is styled with Tailwind CSS, utilizes Recharts for data visualization and MUI Data Grid for handling
-complex data, with Redux managing data fetching, deployed on AWS Amplify.<br/>
-The backend is powered by Node.js with Prisma ORM for database management, deployed using AWS RDS for
-the database, EC2 for hosting, API Gateway for API management, and S3 for image storage.</p>`,
+The frontend, is styled with Tailwind CSS, utilizes Recharts for data visualization and MUI Data Grid for handling complex data, with Redux managing data fetching, deployed on AWS Amplify.<br/>
+The backend is powered by Node.js with Prisma ORM for database management, deployed using AWS RDS for the database, EC2 for hosting, API Gateway for API management, and S3 for image storage.</p>`,
         details: [{
             name: 'Languages and Tools',
             items: ['Next.js', 'Redux', 'Node.js', 'TailwindCSS', 'Recharts', 'AWS', 'Postgres']
@@ -38,10 +36,8 @@ the database, EC2 for hosting, API Gateway for API management, and S3 for image 
             { id: 7, name: 'ecommerce', src: ' /images/photos/ecommerce/checkout.png' },],
         description: `<p>An eCommerce application built with Angular 18.20 and Node.js, leveraging core Angular features such as
 Modules, Data Binding, Directives, Services, Pipes, and Lazy Loading.<br/>
- Users can browse across categories using Router and manage their shopping cart (add, update, remove items) .
-The app utilizes Reactive Forms for user interactions and Observables for asynchronous operations.<br/>
- The checkout process integrates the Stripe API for secure payments, with configurable shipping and delivery
-options</p>`,
+ Users can browse across categories using Router and manage their shopping cart (add, update, remove items).<br/>
+The app utilizes Reactive Forms for user interactions and Observables for asynchronous operations. The checkout process integrates the Stripe API for secure payments, with configurable shipping and delivery options.</p>`,
         details: [{
             name: 'Languages and Tools',
             items: ['Angular 18.20', 'Node.js', 'Angular Material', 'TypeScript', 'Stripe API', 'Tailwind CSS']
@@ -57,7 +53,7 @@ options</p>`,
             { id: 5, name: 'screenshot', src: '/images/photos/AuthApp/Auth4.png' },
             { id: 6, name: 'screenshot', src: '/images/photos/AuthApp/Auth9.png' },
         ],
-        description: `<p> A secure web application  focusing on user authentication and session management, using JWT for secure and stateless session handling. Bcrypt is implemented for strong password hashing and encryption, and  Nodemailer for user identity verification.<br/> The backend follows RESTful API principles for efficient communication, while Tailwind CSS ensures a fully responsive user interface across all screen sizes. /p>`,
+        description: `<p> A secure web application  focusing on user authentication and session management, using JWT for secure and stateless session handling. Bcrypt is implemented for strong password hashing and encryption, and  Nodemailer for user identity verification.<br/> The backend follows RESTful API principles for efficient communication, while Tailwind CSS ensures a fully responsive user interface across all screen sizes. </p>`,
         details: [{
             name: 'Languages and Tools',
             items: ['Express.js', 'Bcrypt', 'Nodemailer', 'JWT', 'MongoDB', 'ReactJS (Vite)', 'Tailwind CSS']
