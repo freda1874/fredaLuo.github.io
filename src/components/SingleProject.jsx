@@ -7,7 +7,7 @@ import SuperMarioMap from '../components/Mario';
 const products = [
     {
         name: 'Inventory Data Dashboard ',
-        link: 'https://main.d21fu26tbnffw2.amplifyapp.com/dashboard',
+        link: 'https://main.d13lld602fvtg0.amplifyapp.com/',
         images: [
             { id: 1, name: 'Dashboard', src: '/images/photos/dashboard/page1.png' },
             { id: 3, name: 'Dashboard', src: '/images/photos/dashboard/page2.png' },
