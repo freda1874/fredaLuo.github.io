@@ -23,6 +23,24 @@ The backend is powered by Node.js with Prisma ORM for database management, deplo
             name: 'Languages and Tools',
             items: ['Next.js', 'Redux', 'Node.js', 'TailwindCSS', 'Recharts', 'AWS', 'Postgres']
         }],
+    }, {
+        name: 'Community AI Video Sharing App - Aora',
+        link: 'https://github.com/freda1874/React-Native-App-Aora-Full-Stack/tree/main',
+        images: [
+            { id: 1, name: 'video', src: 'https://github.com/user-attachments/assets/59243dc7-2d68-40c7-a209-ad3e12663a97' },
+            { id: 2, name: 'video', src: 'https://github.com/user-attachments/assets/debe6e03-be6d-4cb1-bcda-456749d8f64e' },
+            { id: 4, name: 'video', src: 'https://github.com/user-attachments/assets/b34a27ab-b2b5-4532-bab7-47ebf0f6cf50' },
+            { id: 5, name: 'video', src: 'https://github.com/user-attachments/assets/454b0df9-d37d-4446-9831-68cc1474b446' },
+            { id: 6, name: 'video', src: 'https://github.com/user-attachments/assets/8d54ef77-df94-41ab-b5df-3c6ab1cb9e55' },
+        ],
+        description: `<p> A modern app built using React Native with Expo Go, integrated with Appwrite for backend services,styled with NativeWind. It enables users to watch, save, and upload videos.<br/>
+It features smooth animations throughout the UI and pull-to-refresh functionality for real-time updates.<br/>
+Persistent user sessions are managed via global state management , ensuring active users remain logged in.<br/>
+The backend leverages Appwrite for user authentication, database management and cloud media storage.</p>`,
+        details: [{
+            name: 'Languages and Tools',
+            items: ['React Native', 'Expo Go', 'Appwrite', 'NativeWind', 'Global state management', 'cloud storage']
+        }],
     },
     {
         name: 'Ecommerce Store',
@@ -112,7 +130,7 @@ export default function SingleProject() {
                                         {product.images.map((image) => (
                                             <Tab
                                                 key={image.id}
-                                                className="relative flex h-20 w-20 flex-shrink-0 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-offset-4 border border-gray-300"
+                                                className="relative flex h-10 w-10 flex-shrink-0 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-offset-4 border border-gray-300"
                                             >
                                                 {({ selected }) => (
                                                     <>
