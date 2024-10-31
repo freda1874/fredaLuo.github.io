@@ -45,12 +45,12 @@ The backend leverages Appwrite for user authentication, database management and 
         name: 'Easy Chat Android App',
         link: 'https://github.com/freda1874/Chat-App-with-Firebase',
         images: [
-            { id: 1, name: 'chat', src: '/images/photos/chat/splash.png' },
+
             { id: 2, name: 'chat', src: '/images/photos/chat/otp.png' },
             { id: 4, name: 'chat', src: '/images/photos/chat/name.png' },
             { id: 5, name: 'chat', src: '/images/photos/chat/chat.png' },
             { id: 6, name: 'chat', src: '/images/photos/chat/chatroom.png' },
-            { id: 6, name: 'chat', src: '/images/photos/chat/profile.png' },
+            { id: 6, name: 'chat', src: '/images/photos/chat/changeprofile.png' },
 
         ],
         description: `<p>A chat application developed in Android Studio and powered by Firebase. It offers secure OTP-based login,
