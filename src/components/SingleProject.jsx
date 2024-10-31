@@ -41,6 +41,24 @@ The backend leverages Appwrite for user authentication, database management and 
             name: 'Languages and Tools',
             items: ['React Native', 'Expo Go', 'Appwrite', 'NativeWind', 'Global state management', 'cloud storage']
         }],
+    }, {
+        name: 'Easy Chat Android App',
+        link: 'https://github.com/freda1874/Chat-App-with-Firebase',
+        images: [
+            { id: 1, name: 'Android', src: 'https://private-user-images.githubusercontent.com/85437054/381808850-d4cb43fa-baac-4ed0-bb2c-ba8dc66c352a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAzNDU5MjksIm5iZiI6MTczMDM0NTYyOSwicGF0aCI6Ii84NTQzNzA1NC8zODE4MDg4NTAtZDRjYjQzZmEtYmFhYy00ZWQwLWJiMmMtYmE4ZGM2NmMzNTJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDMxVDAzMzM0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZmMTA0ZTI0M2FlZTE5ZmQ5N2U5NjZkZTE5MDhjOTY4NzQ5YTZiMmM0M2FlNjU5ODBlZWY2YWU2NmYxY2M0M2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.j9H8cMfgFt_va9ab8L2pnu4Lcii0I4EOXV1iVBy-tCw' },
+            { id: 2, name: 'Android', src: 'https://private-user-images.githubusercontent.com/85437054/381808799-f31c7ba1-0b84-43bb-9ab6-cfc19cb977bc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAzNDU5MjksIm5iZiI6MTczMDM0NTYyOSwicGF0aCI6Ii84NTQzNzA1NC8zODE4MDg3OTktZjMxYzdiYTEtMGI4NC00M2JiLTlhYjYtY2ZjMTljYjk3N2JjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDMxVDAzMzM0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzZWMyYzYwMmY5NDEwN2IxZWE3MTQyZjQ4ZDFhOTQxMDIyN2U3NjE0NzBiOTljNzllZWYxYmUzNzZmM2JmMzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.PPmFZAWqpn-8HSgnlx4tDiHmtH4Q-mzkEAHKNn_0734' },
+            { id: 4, name: 'Android', src: 'https://private-user-images.githubusercontent.com/85437054/381808721-8b4cbd0a-9220-43cf-8dd1-4a0f35605767.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAzNDU5MjksIm5iZiI6MTczMDM0NTYyOSwicGF0aCI6Ii84NTQzNzA1NC8zODE4MDg3MjEtOGI0Y2JkMGEtOTIyMC00M2NmLThkZDEtNGEwZjM1NjA1NzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDMxVDAzMzM0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg0M2EzNDYzNmNhOTE5MzMyYjRiYjczYWY1MzM3OTdlZDljYjI4OWEzMDlkYTJlYjdjNjAwZDNjYTRhYzZkMjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.01MPQEHnuvVCmz56ASoU1IlD9wAuN4jNZpNNXIbgI3s' },
+            { id: 5, name: 'Android', src: 'https://private-user-images.githubusercontent.com/85437054/381808763-61dba2da-3182-472e-9477-a8c5973e5912.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAzNDU5MjksIm5iZiI6MTczMDM0NTYyOSwicGF0aCI6Ii84NTQzNzA1NC8zODE4MDg3NjMtNjFkYmEyZGEtMzE4Mi00NzJlLTk0NzctYThjNTk3M2U1OTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDMxVDAzMzM0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjOWZhNmI2NjQ4MDkxZTBjMjk2YjNiZWIxYjcyMDBlNDliMmJiZDM4Nzk3Zjg4MmViYzE4Y2Y5ZjgwMzc2Y2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.q-rk0hScsaZi3GCjKtV8baVScBD-NPSusO56uvIlfJ8' },
+
+        ],
+        description: `<p>A chat application developed in Android Studio and powered by Firebase. It offers secure OTP-based login,
+real-time messaging using Firebase Firestore, and personalized user profiles with profile picture support.<br/>
+Users can keep track of their conversations through recent chats and connect with friends through user search
+feature. UI is crafted with RecyclerView, fragments and Chat views to ensure a responsive user experience.</p>`,
+        details: [{
+            name: 'Languages and Tools',
+            items: [' Android Studio', 'Firebase', 'Firestore', 'cloud storage']
+        }],
     },
     {
         name: 'Ecommerce Store',
