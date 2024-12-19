@@ -70,8 +70,15 @@ function Role({ role }) {
 function Resume() {
     let resume = [
         {
+            company: 'Natural Resources Canada',
+            title: 'Junior Web Developer (contract)',
+            logo: '/images/logos/goc.png',
+            start: '2025',
+            end: '2025'
+        },
+        {
             company: 'Warner Bros. Discovery',
-            title: 'IOS Developer Co-op',
+            title: 'Software Developer Co-op',
             logo: '/images/logos/warner.svg',  // Updated path
             start: '2024',
             end: '2024'
@@ -90,13 +97,7 @@ function Resume() {
             start: '2019',
             end: '2022'
         },
-        {
-            company: 'Tencent ',
-            title: 'Content Strategist',
-            logo: '/images/logos/tencent.svg',
-            start: '2015',
-            end: '2019',
-        }
+
     ]
 
     return (

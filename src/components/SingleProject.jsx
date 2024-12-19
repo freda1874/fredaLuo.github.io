@@ -24,6 +24,22 @@ The backend is powered by Node.js with Prisma ORM for database management, deplo
             items: ['Next.js', 'Redux', 'Node.js', 'TailwindCSS', 'Recharts', 'AWS', 'Postgres']
         }],
     }, {
+        name: 'Wish Jar',
+        link: 'https://moccasin-oyster-396618.hostingersite.com/web/',
+        images: [
+            { id: 1, name: 'drupal', src: '/images/photos/drupal/drupal1.png' },
+            { id: 3, name: 'drupal', src: '/images/photos/drupal/drupal2.png' },
+            { id: 4, name: 'drupal', src: '/images/photos/drupal/drupal3.png' },
+            { id: 5, name: 'drupal', src: '/images/photos/drupal/drupal4.png' },],
+        description: `<p>A Drupal-based CMS platform to foster user inspiration and connection by enabling the sharing and exploration
+of wishes.<br/>
+Enhanced user engagement using Drupal’s Blocks, Views, and Flags Module. Developed with DDEV and Docker for local development and containerized deployment. <br/> Styled with Tailwind CSS and implemented custom theming using Twig templates. Configured role-based access
+management through user roles and permissions.</p>`,
+        details: [{
+            name: 'Languages and Tools',
+            items: ['Drupal', 'PHP', 'Twig', 'Tailwind CSS', 'DDEV']
+        }],
+    }, {
         name: 'Community AI Video Sharing App - Aora',
         link: 'https://github.com/freda1874/React-Native-App-Aora-Full-Stack/tree/main',
         images: [
