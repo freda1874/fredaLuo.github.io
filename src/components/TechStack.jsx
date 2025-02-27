@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import { FaReact, FaJava, FaSwift, FaPython } from "react-icons/fa";
+import { FaReact, FaJava, FaSwift, FaPython, FaAws } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { TbBrandMongodb, TbBrandCSharp } from "react-icons/tb";
 import { DiNodejs } from "react-icons/di";
-import { SiMysql, SiAndroidstudio, SiOracle, SiXcode, SiAngular } from "react-icons/si";
+import { SiMysql, SiAndroidstudio, SiOracle, SiXcode, SiTerraform } from "react-icons/si";
 import { SiTypescript, SiDotnet, SiJavascript } from "react-icons/si";
 
 // Custom Icons
@@ -70,11 +70,11 @@ function Role({ role }) {
 function Resume() {
     let resume = [
         {
-            company: 'Natural Resources Canada',
-            title: 'Junior Web Developer (contract)',
-            logo: '/images/logos/goc.png',
+            company: 'LearnExperts',
+            title: 'System Operations Engineer',
+            logo: '/images/logos/learnexperts_logo.jpg',
             start: '2025',
-            end: '2025'
+            end: 'Present'
         },
         {
             company: 'Warner Bros. Discovery',
@@ -141,17 +141,18 @@ function Resume() {
                             <FaReact width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">React</span>
                         </div>
-                        <div className="flex flex-col items-center">
-                            <SiAngular width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">Angular</span>
-                        </div>
+
                         <div className="flex flex-col items-center">
                             <SiTypescript width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
                             <span className="mt-2 text-sm text-gray-600">Typescript</span>
                         </div>
                         <div className="flex flex-col items-center">
-                            <SiDotnet width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
-                            <span className="mt-2 text-sm text-gray-600">.NET</span>
+                            <FaAws width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">AWS</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <SiTerraform width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
+                            <span className="mt-2 text-sm text-gray-600">Terraform </span>
                         </div>
                         <div className="flex flex-col items-center">
                             <FaJava width={iconWidth} height={iconHeight} className="h-10 w-10 object-contain" />
