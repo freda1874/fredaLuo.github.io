@@ -7,7 +7,7 @@ export const metadata = {
   title: {
     template: '%s - Freda Luo',
     default:
-      'Freda Luo - a recent graduate and a passionate software engineer',
+      'Freda Luo - passionate in both software development and deployment',
   },
   description:
     'I’m Freda, a passionate software engineer',
